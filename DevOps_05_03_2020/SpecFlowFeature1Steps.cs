@@ -17,7 +17,7 @@ namespace DevOps_05_03_2020
         [Given(@"I have navigated to the google search page")]
         public void GivenIHaveNavigatedToTheGoogleSearchPage()
         {
-            _driver = new ChromeDriver();
+            _driver = new FirefoxDriver();
             //_driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             _driver.Navigate().GoToUrl("http://www.google.com");
             //_driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
